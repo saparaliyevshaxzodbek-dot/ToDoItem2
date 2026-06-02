@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Entities\" />
-    <Folder Include="Data\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
