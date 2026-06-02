@@ -1,7 +1,9 @@
-﻿namespace ToDoList.Api.DTOs
+﻿namespace ToDoList.Api.DTOs;
+
+public class TodoItemCreateDto
 {
-    public class TodoItemCreateDto
-    {
-        public long TodoItemId { get; set; }
-    }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public DateTime? DueDate { get; set; }
+    public int Priority { get; set; }
 }
