@@ -1,6 +1,6 @@
 ﻿namespace ToDoList.Api.Repositories
 {
-    public class TodoItemRepository
+    public interface ITodoRepository
     {
     }
 }
